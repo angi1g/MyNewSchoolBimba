@@ -11,7 +11,7 @@ import SwiftUI
 struct MyNewSchoolBimbaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(session: MultiPeerAdvertiser())
         }
     }
 }

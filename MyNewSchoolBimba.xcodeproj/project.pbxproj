@@ -11,6 +11,7 @@
 		E7357BBF2B70FD71007215FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7357BBE2B70FD71007215FC /* ContentView.swift */; };
 		E7357BC12B70FD72007215FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7357BC02B70FD72007215FC /* Assets.xcassets */; };
 		E7357BC42B70FD72007215FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7357BC32B70FD72007215FC /* Preview Assets.xcassets */; };
+		E7357BCD2B70FDCD007215FC /* MultiPeerAdvertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7357BCC2B70FDCD007215FC /* MultiPeerAdvertiser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		E7357BBE2B70FD71007215FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7357BC02B70FD72007215FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7357BC32B70FD72007215FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7357BCC2B70FDCD007215FC /* MultiPeerAdvertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeerAdvertiser.swift; sourceTree = "<group>"; };
+		E7B755332B77B1DC0049E179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		E7357BBB2B70FD71007215FC /* MyNewSchoolBimba */ = {
 			isa = PBXGroup;
 			children = (
+				E7B755332B77B1DC0049E179 /* Info.plist */,
 				E7357BBC2B70FD71007215FC /* MyNewSchoolBimbaApp.swift */,
 				E7357BBE2B70FD71007215FC /* ContentView.swift */,
+				E7357BCC2B70FDCD007215FC /* MultiPeerAdvertiser.swift */,
 				E7357BC02B70FD72007215FC /* Assets.xcassets */,
 				E7357BC22B70FD72007215FC /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7357BBF2B70FD71007215FC /* ContentView.swift in Sources */,
+				E7357BCD2B70FDCD007215FC /* MultiPeerAdvertiser.swift in Sources */,
 				E7357BBD2B70FD71007215FC /* MyNewSchoolBimbaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +281,8 @@
 				DEVELOPMENT_TEAM = R8K3P62K8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNewSchoolBimba/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bimba;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +312,8 @@
 				DEVELOPMENT_TEAM = R8K3P62K8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNewSchoolBimba/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bimba;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
