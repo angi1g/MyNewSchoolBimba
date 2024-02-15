@@ -31,7 +31,7 @@ class MultiPeerAdvertiser: NSObject, ObservableObject {
         
         session.delegate = self
         serviceAdvertiser.delegate = self
-        serviceAdvertiser.startAdvertisingPeer()
+        serviceAdvertiser.startAdvertisingPeer() // ricordati di aggiornare info.plist con "Bonjour services"
         print("😀 start advertising")
     }
     
